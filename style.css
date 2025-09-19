@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-signup-sec{
+    width: 500px;
+    height: auto;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 8px 8px 20px rgb(128, 128, 128);
+}
+
+.slider{
+    height: 60px;
+    width: 150px;
+    background: linear-gradient(90deg,#fbdcb2,#ffa909);
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
+.move-slider{
+    left: 150px;
+}
+
+
+.form{
+    width: 1000px;
+    position: relative;
+    display: flex;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.move-form{
+    left: -500px;
+}
+
+/* Login Page Start */
+.login-sign-btn{
+    height: 60px;
+    width: 300px;
+    position: relative;
+    margin: 60px auto;
+    box-shadow: 10px 10px 30px rgb(254, 215, 188);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-btn, .signup-btn{
+    height: 60px;
+    width: 150px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.login-page input{
+    width: 90%;
+    height: 60px;
+    border: none;
+    border-radius: 29px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 50px ;
+    background-color: rgb(240, 240, 240);
+    color: rgb(77, 77, 77);
+    font-size: 20px;
+    padding: 0 20px ;
+}
+.login-page {
+    width: 500px;
+}
+.login-page .login-btn{
+    margin-bottom: 30px;
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    background: linear-gradient(90deg,#fbdcb2,#ffa909);
+}
+/* Logginn Page End */
+
+/* Signup Page Start */
+.signup-page{
+    width: 500px;
+}
+.signup-page input{
+    width: 90%;
+    height: 60px;
+    border: none;
+    border-radius: 29px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px ;
+    background-color: rgb(240, 240, 240);
+    color: rgb(77, 77, 77);
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.signup-page .signup-btn {
+    margin-bottom: 30px;
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    background: linear-gradient(90deg,#fbdcb2,#ffa909);
+}
+/* Signup Page End */
